@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OtpView">
+        <attr name="textType" format="enum">
+            <enum name="number" value="0"/>
+            <enum name="password" value="1"/>
+        </attr>
+        <attr name="otpSize" format="integer"/>
+    </declare-styleable>
+</resources>
